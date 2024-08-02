@@ -1,0 +1,47 @@
+.sche-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sche-button-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 18%;
+}
+
+.sche-button-list button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(44, 62, 80);
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.sche-button-list button:hover {
+  background-color: rgb(44, 62, 80, 0.8);
+  transform: scale(1.05);
+}
+
+/* button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(44, 62, 80);
+    border: none;
+    border-radius: 2.5px;
+    transition-duration: 0.15s;
+    padding: 2px 5px;
+  }
+  
+  button:hover {
+    background-color: rgb(44, 62, 80, 0.8);
+    transform: scale(1.2);
+  } */
