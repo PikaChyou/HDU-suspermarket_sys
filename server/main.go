@@ -64,8 +64,8 @@ type App struct {
 
 func main() {
 	dbUser := "root"
-	dbPass := "Qiuwz@admin"
-	dbServer := "122.9.12.102:3306"
+	dbPass := ""
+	dbServer := ""
 	dbName := "supermarket_sys"
 	dsn := dbUser + ":" + dbPass + "@tcp(" + dbServer + ")/" + dbName
 	db, err := sql.Open("mysql", dsn)
